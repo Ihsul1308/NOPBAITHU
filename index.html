@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background: url(images/bg-1.jpg);
+            background-size: cover;
+            height: 80vh;
+            background-position: center;
+            padding-top: 40px;
+        }
+        .header .nav{
+            width: 80%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px gray solid;
+            margin:0 auto;
+            margin-top: 20px;
+            align-items: center;
+            padding: 5px 30px;
+            background: rgb(6, 14, 80);
+        }
+        .header .nav .menu ul{
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+        }
+        .header .nav .menu ul li a{
+            text-decoration: none;
+            margin-right: 10px;
+            color: #fff;
+            font-weight: 900;
+        }
+        .header .nav .contact a{
+            color: #fff;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .header .nav .contact button{
+            height: 40px;
+            width: 150px;
+        }
+        .header .nav .contact button:hover{
+            color: #fff;
+            background-color: black;
+        }
+        .header .banner{
+            text-align: center;
+            padding: 100px;
+            height: 500px;
+            line-height: 100px;
+            font-size: 50px;
+            color: #2b2280;
+        }
+        .header .banner button{
+            height: 40px;
+            width: 150px;
+            color: #fff;
+            background-color: rgb(240, 194, 44);
+            border: none;
+        }
+        .header .banner button a{
+            color: #fff;
+        }
+        .header .banner button:hover{
+            color: black;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">BLOG/NEWS</a></li>
+                    <li><a href="#">SHOP</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <button>GET A QUOTE</button>
+            </div>
+        </div>
+        <div class="banner">
+                <h1>Reliable Engineering </h1>
+                <h1>Takes Many Forms</h1>
+                <button>OUR PORTFOLIO <a href="#"><i class="fa-solid fa-arrow-right"></i></a></button>
+            
+        </div>
+    </div>
+</body>
+</html>
